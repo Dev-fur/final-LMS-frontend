@@ -2,11 +2,11 @@ import "./App.css";
 import { Routes, Route } from "react-router-dom";
 import CreationPage from "./pages/CreationPage";
 import LoginPage from "./pages/LoginPage";
-import MyBooks from "./pages/MyBooks";
-import BookSearch from "./pages/BookSearch";
-import Operation from "./pages/Operation";
-import IssueReturn from "./pages/IssueReturn";
-import OverdueList from "./pages/OverdueList";
+import MyBooks from "./components/students/MyBooks";
+import BookSearch from "./components/students/BookSearch";
+import Operation from "./components/staff/Operation";
+import IssueReturn from "./components/staff/IssueReturn";
+import OverdueList from "./components/staff/OverdueList";
 
 const App = () => {
   return (

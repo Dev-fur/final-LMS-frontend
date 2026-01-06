@@ -1,7 +1,7 @@
 
 import React, { useState } from "react";
-import mockBooks from "../components/students/BookSearch/mockBooks";
-import BookSearchResults from "../pages/BookSearchResults";
+import mockBooks from "../students/BookSearch/mockBooks";
+import BookSearchResults from "../students/BookSearchResults";
 
 const BookSearch = () => {
     const [query, setQuery] = useState("");      // user input

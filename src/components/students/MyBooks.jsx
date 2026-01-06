@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 // import './MyBooks.css';
-import OverdueNotifications from '../components/students/OverdueNotifications';
+import OverdueNotifications from './OverdueNotifications';
 
 const MyBooks = () => {
     const studentId = 1; // Mock current user
