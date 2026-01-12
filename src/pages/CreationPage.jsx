@@ -33,7 +33,7 @@ const CreationPage = () => {
 
   useEffect(() => {
     if (isUserCreated) {
-      navigate("/login-page");
+      navigate("/login");
     }
   }, [isUserCreated, navigate]);
 
