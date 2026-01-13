@@ -41,7 +41,7 @@ const SignupModal = ({ isOpen, onClose }) => {
         }}
         onClick={(e) => e.stopPropagation()}
       >
-        <h2 style={{ textAlign: "center", marginBottom: "30px" }}>
+        <h2 style={{ textAlign: "center", marginBottom: "30px", color: "white" }}>
           Choose Account Type
         </h2>
         <div
@@ -74,7 +74,7 @@ const SignupModal = ({ isOpen, onClose }) => {
             }}
           >
             <div style={{ fontSize: "60px", marginBottom: "15px" }}>🎓</div>
-            <h3>Student</h3>
+            <h3 style={{ color: "white"  }}>Student</h3>
             <p style={{ fontSize: "14px", color: "#888" }}>
               Borrow books and manage your reading list
             </p>
@@ -101,8 +101,8 @@ const SignupModal = ({ isOpen, onClose }) => {
               e.currentTarget.style.borderColor = "#646cff";
             }}
           >
-            <div style={{ fontSize: "60px", marginBottom: "15px" }}>📚</div>
-            <h3>Staff</h3>
+            <div style={{ fontSize: "60px", marginBottom: "15px", color: "white" }}>📚</div>
+            <h3 style={{ color: "white"  }}>Staff</h3>
             <p style={{ fontSize: "14px", color: "#888" }}>
               Manage library books and records
             </p>
