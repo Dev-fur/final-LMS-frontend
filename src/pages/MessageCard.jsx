@@ -135,7 +135,7 @@ const MessageCard = () => {
         {/* HEADER */}
         <div className="flex items-center gap-3 mb-3">
           <img
-            src="https://i.pravatar.cc/100"
+            src="../../public/face.png"
             alt="avatar"
             className="w-12 h-12 rounded-full"
           />
@@ -150,9 +150,9 @@ const MessageCard = () => {
         {/* IMAGE */}
         <div className="rounded-xl overflow-hidden mb-3">
           <img
-            src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e"
+            src="../../public/image.jpeg"
             alt="profile"
-            className="w-full h-44 object-cover"
+            className="w-full h-56 object-cover"
           />
         </div>
 
