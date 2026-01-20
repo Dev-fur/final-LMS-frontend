@@ -1,5 +1,7 @@
+
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
+
 
 const StudentSignup = () => {
   const navigate = useNavigate();
@@ -186,3 +188,4 @@ const StudentSignup = () => {
 };
 
 export default StudentSignup;
+

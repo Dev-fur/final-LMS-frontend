@@ -20,12 +20,12 @@ import MessageCard from "./pages/MessageCard";
 const App = () => {
   return (
     <>
-      <Routes>
+      {/* <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/signup/student" element={<StudentSignup />} />
         <Route path="/signup/staff" element={<StaffSignup />} />
         <Route path="/login" element={<LoginPage />} />
-        {/* <Route path="/creation" element={<CreationPage />} /> */}
+        <Route path="/creation" element={<CreationPage />} />
         <Route path="/operation" element={<Operation />} />
         <Route path="/students/my-books" element={<MyBooks />} />
         <Route path="/students/search" element={<BookSearch />} />
@@ -37,7 +37,7 @@ const App = () => {
       </Routes>
         <Route path="/book/:id" element={<BookDetails />} />
 
-      </Routes>
+      </Routes> */}
 <Routes>
   <Route path="/" element={<LandingPage />} />
   <Route path="/messagecard" element={<MessageCard />} />
