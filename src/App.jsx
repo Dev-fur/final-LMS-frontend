@@ -10,6 +10,9 @@ import BookSearch from "./components/students/BookSearch";
 import Operation from "./components/staff/Operation";
 import IssueReturn from "./components/staff/IssueReturn";
 import OverdueList from "./components/staff/OverdueList";
+import Borrowed from "./components/staff/Borrowed";
+import Borrowers from "./components/staff/Borrowers";
+import Header from "./components/staff/Header";
 import BookDetails from "./components/students/BookDetails";
 import MessageCard from "./pages/MessageCard";
 
@@ -28,6 +31,10 @@ const App = () => {
         <Route path="/students/search" element={<BookSearch />} />
         <Route path="/issuereturn" element={<IssueReturn />} />
         <Route path="/overduelist" element={<OverdueList />} />
+        <Route path="/borrowed" element={<Borrowed />} />
+        <Route path="/borrowers" element={<Borrowers />} />
+        <Route path="/header" element={<Header />} />
+      </Routes>
         <Route path="/book/:id" element={<BookDetails />} />
 
       </Routes>
