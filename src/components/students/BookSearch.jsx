@@ -117,14 +117,7 @@ setBooks(response.data.data);
 
       {/* --- Alphabet Navigation Strip --- */}
       <div className="flex items-center overflow-x-auto py-4 px-4 no-scrollbar whitespace-nowrap">
-        {alphabet.map((char) => (
-          <div key={char} className="flex items-center">
-            <span className="px-3 text-3xl font-light text-black hover:font-bold cursor-pointer transition-all">
-              {char}
-            </span>
-            <div className="h-8 w-0.5 bg-yellow-400 mx-1"></div>
-          </div>
-        ))}
+        
       </div>
 
       {loading && <div className="text-center mt-10">Loading books...</div>}
