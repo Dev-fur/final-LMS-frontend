@@ -22,12 +22,12 @@ export const staffSignup = (data) => {
 };
 
 export const getAllBooks = () => {
-  return API.get("/api/book");
+  return api.get("/api/book");
 };
 
 // Search books
 export const searchBooks = (query) => {
-  return API.get(`/api/book/search?query=${query}`);
+  return api.get(`/api/book/search?query=${query}`);
 };
 
 
